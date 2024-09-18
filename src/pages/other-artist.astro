@@ -1,15 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro"
+import Card from "../components/Card.astro"
 ---
   <Layout title="Other Artists">
-    <div class="bg-red-700	 h-screen w-full" >
-
-      <h1>2PAC</h1>
-      <img src="https://s.mxmcdn.net/images-storage/albums5/4/3/7/0/6/5/49560734_350_350.jpg" alt="">
-      <h1>YEAT</h1> 
-      <img src="https://www.laut.de/Yeat/Alben/Lyfe-119141/yeat-lyfe-220659.jpg?ae045e" alt="">
-      <h1>50CENT</h1>
-      <img src="https://i.pinimg.com/originals/f0/3e/c5/f03ec5c7f7432287579ffbc852d7ecdd.jpg" alt="">
-
+    <div class="bg-red-700 flex flex-col gap-4 	 h-screen w-full" >
+      <Card title="2PAC" img="https://s.mxmcdn.net/images-storage/albums5/4/3/7/0/6/5/49560734_350_350.jpg"/>
+      <Card title="YEAT" img="https://www.laut.de/Yeat/Alben/Lyfe-119141/yeat-lyfe-220659.jpg?ae045e"/>
+      <Card title="50CENT" img="https://i.pinimg.com/originals/f0/3e/c5/f03ec5c7f7432287579ffbc852d7ecdd.jpg"/>
+    
+      
     </div>
 </Layout>
