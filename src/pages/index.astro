@@ -1,8 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro"
-
 ---
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +13,7 @@ import Layout from "../layouts/Layout.astro"
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url('https://www.outlooktravelmag.com/media/jamaica-tg-1024x589.png'); /* Replace with the actual URL of the background image */
+            background-image: url('bg-neutral-950');
             background-size: cover;
             background-position: center;
             color: white;
@@ -25,7 +23,6 @@ import Layout from "../layouts/Layout.astro"
         .container {
             background: rgba(0, 0, 0, 0.5);
             padding: 20px;
-            margin: 0;
             height: 100vh;
             display: flex;
             flex-direction: column;
@@ -42,11 +39,13 @@ import Layout from "../layouts/Layout.astro"
         .subtitle {
             font-size: 1.5em;
             margin: 10px 0;
+            font-weight: bold;
         }
 
         .image {
             max-width: 80%;
             height: auto;
+            margin: 20px 0;
         }
 
         .text {
@@ -59,17 +58,20 @@ import Layout from "../layouts/Layout.astro"
         }
     </style>
 </head>
-<Layout/>
 <body>
-    <div class="container">
+    <Layout>
+    <div class="flex flex-col items-center">
         <img src="" alt="" class="image"> <!-- Replace with actual image URL -->
-        <div class="title">MUSIC ARTIST</div>
-        <div class="subtitle">BOB MARLEY</div>
-        <img src="https://m.media-amazon.com/images/I/6166hXo8mpL._UF1000,1000_QL80_.jpg" alt="One Love Bob Marley" class="image"> <!-- Replace with actual image URL -->
-        <div class="text">
-            The artist I have chosen is Bob Marley. I like to listen to reggae songs like the artist UB40 and other reggae artists. No reggae artist can compete with Bob Marley. Bob Marley rose to fame with his backing band. Bob Marley was the best reggae artist in 1975. Bob Marley released a song "No Woman No Cry". My favourite songs from Bob Marley are "One Love" and "Buffalo Soldier".
+        <div class="title"></div>
+        <div class="subtitle"></div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRngH8WRoJwp-anEK3tQbHwYow8avangqnyNg&s" alt="One Love Bob Marley" class="image ">
+        <div class="text">Bob Marley was born on February 6, 1945, in Nine Mile, Jamaica. e faced challenges growing up, including racial and economic difficulties. His father was a British naval officer, and his mother was a Jamaican woman. Marley started his music career in the early 1960s, initially forming a group called The Wailers with Bunny Wailer and Peter Tosh.His music often addressed social and political issues, promoting peace, love, and unity. Songs like "One Love" and "Get Up, Stand Up" reflect these themes. Some of his most famous albums include "Catch a Fire," "Rastaman Vibration," and "Exodus." His posthumous album, "Legend," remains hugely popular.Marley's music continues to inspire artists and activists. He is often regarded as one of the greatest musicians of all time.Marley was diagnosed with melanoma in 1977. He continued to perform until his health declined. He passed away on May 11, 1981, at the age of 36.
+
+
+           
+            
         </div>
     </div>
-</body>
 </Layout>
+</body>
 </html>
